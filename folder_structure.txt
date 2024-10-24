@@ -1,0 +1,30 @@
+fake_news_detection/
+│
+├── backend/
+│   ├── manage.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── views.py
+│   ├── models.py
+│   ├── serializers.py
+│   ├── requirements.txt
+│   ├── ml_model/
+│   │   ├── model.py
+│   │   ├── tokenizer.py
+│   │   └── best_model.pt
+│   └── migrations/
+│
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── FakeNewsChecker.js
+│   │   │   └── TweetAnalyzer.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── api.js
+│   ├── package.json
+│   └── README.md
+│
+└── README.md
